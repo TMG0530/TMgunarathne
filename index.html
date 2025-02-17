@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crocodile Facts</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+            color: #00695c;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background-color: #004d40;
+            color: white;
+            text-align: center;
+            padding: 1.5em 0;
+            width: 100%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        main {
+            padding: 20px;
+            width: 80%;
+            max-width: 800px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: #ffffff;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 0.5s forwards;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Interesting Facts About Crocodiles</h1>
+    </header>
+    <main>
+        <ul id="facts-list"></ul>
+    </main>
+    <script>
+        const facts = [
+            "Crocodiles are large aquatic reptiles found in tropical regions of Africa, Asia, the Americas, and Australia.",
+            "They are members of the order Crocodylia, which also includes alligators, caimans, and gharials.",
+            "Crocodiles have a powerful bite, with some species having the strongest bite force of any animal.",
+            "They are carnivorous and primarily feed on fish, birds, mammals, and occasionally smaller crocodiles.",
+            "Crocodiles have a lifespan that can exceed 70 years in the wild.",
+            "They have a unique heart structure with four chambers, similar to birds and mammals, which allows efficient oxygenation of blood.",
+            "Crocodiles are excellent swimmers and can hold their breath underwater for up to an hour.",
+            "They have a highly developed sense of smell, which helps them locate prey.",
+            "Crocodiles communicate with each other through vocalizations, body postures, and chemical signals.",
+            "The largest species, the saltwater crocodile, can grow up to 23 feet (7 meters) in length and weigh over 2,200 pounds (1,000 kilograms)."
+        ];
+
+        function shuffle(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+
+        const factsList = document.getElementById('facts-list');
+        shuffle(facts);
+
+        facts.forEach(fact => {
+            const listItem = document.createElement('li');
+            listItem.textContent = fact;
+            factsList.appendChild(listItem);
+        });
+    </script>
+</body>
+</html>
