@@ -1,25 +1,25 @@
-# 👋 Hi, I'm Tiromi Gunarathne
+👋 Hi, I'm Tiromi Gunarathne
 
-🎓 Data Science & Business Analysis Undergraduate  
-🤖 Interested in AI, Machine Learning & Data Analytics  
-🌱 Active Technical Volunteer & Student Leader  
+ Data Science & Business Analysis Undergraduate  
+ Interested in AI, Machine Learning & Data Analytics  
+ Active Technical Volunteer & Student Leader  
 
 ---
 
-## 🚀 Featured Projects
+##  Featured Projects
 
-### ☕ Cafe Order Optimization System
+Cafe Order Optimization System
 **Tools:** Python, Data Structures  
 Simulated FIFO, SJF, and Priority Queue strategies to optimize customer waiting time.  
 🔗 [View Project](https://github.com/TMgunarathne/Cafe)
 
-### 🧠 ADHD Detection using fMRI Data
+ ADHD Detection using fMRI Data
 **Tools:** Python, Machine Learning  
 Built ML models using brain connectivity and demographic data for ADHD identification.
 
 ---
 
-## 🏆 Volunteering & Leadership
+##  Volunteering & Leadership
 
 - Vice Chair – British Computer Society (BCS), KDU
 - Industrial Engagement- Standing Committee Head – IEEE WIE Affinity Group of KDU
@@ -28,18 +28,14 @@ Built ML models using brain connectivity and demographic data for ADHD identific
 - Volunteer – Rotaract Club of General Sir John Kotelawala Defence University
 ---
 
-## 🛠 Skills
+##  Skills
 
 **Languages:** Python, R  
 **Data Science:** EDA, Machine Learning, Data Visualization  
 **Soft Skills:** Leadership, Teamwork, Communication  
 
 ---
-
 ## 🔗 Connect with Me
-- 💼 LinkedIn: https://www.linkedin.com/in/tiromi-gunarathne/
-- 🌐 Portfolio: https://tmgunarathne.github.io
+-  LinkedIn: https://www.linkedin.com/in/tiromi-gunarathne/
+-  Portfolio: https://tmgunarathne.github.io
 
-
-- 💼 LinkedIn: *add your LinkedIn link*
-- 🌐 Portfolio: https://tmgunarathne.github.io
