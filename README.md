@@ -1,6 +1,3 @@
-# tiromigunarathne.github.io
-Projects &amp; Volunteering Portfolio
-
 👋 Hi, I'm Tiromi Gunarathne
 
  Data Science & Business Analysis Undergraduate  
